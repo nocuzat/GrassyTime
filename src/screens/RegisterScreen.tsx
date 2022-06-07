@@ -44,7 +44,7 @@ const RegisterScreen = ({ navigation }: Props) => {
 
       <Logo />
 
-      <Header>Create Account</Header>
+      <Header>Create New Account</Header>
 
       <TextInput
         label="Name"
@@ -63,7 +63,6 @@ const RegisterScreen = ({ navigation }: Props) => {
         error={!!email.error}
         errorText={email.error}
         autoCapitalize="none"
-        autoCompleteType="email"
         textContentType="emailAddress"
         keyboardType="email-address"
       />
